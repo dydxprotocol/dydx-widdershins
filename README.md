@@ -1,4 +1,4 @@
-# widdershins
+# dYdX widdershins
 OpenAPI / Swagger / AsyncAPI / Semoasa definition to [Slate](https://github.com/slatedocs/slate) /
 [ReSlate](https://github.com/mermade/reslate) compatible markdown
 
