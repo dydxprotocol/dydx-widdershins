@@ -5,7 +5,7 @@ import requests
 {{?}}
 # For the deployment by DYDX token holders, use
 # baseURL = 'https://indexer.dydx.trade/v4'
-baseURL = 'https://dydx-testnet.imperator.co/v4'
+baseURL = 'https://indexer.v4testnet.dydx.exchange/v4'
 
 r = requests.{{=data.method.verb}}(f'{baseURL}{{=data.url}}'{{? data.requiredParameters.length}}, params={
 {{~ data.requiredParameters :p:index}}  '{{=p.name}}': {{=p.exampleValues.json}}{{? data.requiredParameters.length-1 != index }},{{?}}{{~}}

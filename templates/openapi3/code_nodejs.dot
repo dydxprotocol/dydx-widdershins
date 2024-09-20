@@ -6,7 +6,7 @@ const fetch = require('node-fetch');
 {{?}}
 // For the deployment by DYDX token holders, use
 // const baseURL = 'https://indexer.dydx.trade/v4';
-const baseURL = 'https://dydx-testnet.imperator.co/v4';
+const baseURL = 'https://indexer.v4testnet.dydx.exchange/v4';
 
 fetch(`${baseURL}{{=data.url}}{{=data.requiredQueryString}}`,
 {
